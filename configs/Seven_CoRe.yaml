@@ -1,6 +1,6 @@
 # basic setting
 bs_train : 2
-bs_test : 4
+bs_test : 1
 workers : 4
 step_per_update: 2
 max_epoch : 200
@@ -24,5 +24,5 @@ base_lr : 0.001
 lr_factor : 0.1
 
 # others
-print_freq : 40
+print_freq : 10
 

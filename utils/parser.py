@@ -18,7 +18,7 @@ def get_args():
             raise RuntimeError('--ckpts should not be None when --test is activate')
 
     if args.benchmark == 'Seven':
-        print(f'training CLASS idx {args.Seven_cls}')
+        print(f'Using CLASS idx {args.Seven_cls}')
         args.class_idx = args.Seven_cls
     return args
 
