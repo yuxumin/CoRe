@@ -1,0 +1,44 @@
+# Xcode
+exp*
+.DS_Store
+.idea
+# Gnerated models and events
+ckpt_*
+*event*
+.history
+.vscode
+# tyte-compiled / optimized / DLL files
+__pycache__/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# pyenv
+.python-version
+*.pyc
+
+# own design
+*.pth
+*.pt
+MTL-AQA/Jupyter
+MTL-AQA/new
+Seven
+old_version_code/
+experiments/
+logs/
+logs_test/

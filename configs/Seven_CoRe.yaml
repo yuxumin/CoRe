@@ -1,0 +1,28 @@
+# basic setting
+bs_train : 2
+bs_test : 4
+workers : 4
+step_per_update: 2
+max_epoch : 200
+
+
+# model setting
+pretrained_i3d_weight : './MTL-AQA/model_rgb.pth'
+RT_depth : 5
+score_range : 100
+voter_number : 10
+
+# dataset setting
+data_root : './Seven/'
+frame_length : 103
+seed : 0
+
+# optimizer setting
+optimizer: 'Adam'
+weight_decay : 0
+base_lr : 0.001
+lr_factor : 0.1
+
+# others
+print_freq : 40
+
