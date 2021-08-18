@@ -14,7 +14,7 @@ class I3D_backbone(nn.Module):
             self.backbone.load_state_dict(torch.load(I3D_ckpt_path))
             print('loading ckpt done')
         except:
-            logging.info('Ckpt path {} do not exists'.format(I3D_ckpt_path))
+            print('Ckpt path {} do not exists'.format(I3D_ckpt_path))
             pass
 
     def get_feature_dim(self):

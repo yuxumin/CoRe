@@ -16,7 +16,7 @@ data_root : './MTL-AQA/new/new_total_frames_256s/'
 label_path : './MTL-AQA/info/final_annotations_dict_with_dive_number.pkl'
 train_split : './MTL-AQA/info/train_split_0.pkl'
 test_split : './MTL-AQA/info/test_split_0.pkl'
-dive_number_choosing : False
+dive_number_choosing : True
 usingDD: True
 frame_length : 103
 seed : 0

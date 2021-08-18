@@ -49,7 +49,6 @@ def run_net(args):
 
     # if using RT, build a group
     group = builder.build_group(train_dataset, args)
-    print(group.get_Group())
     # CUDA
     global use_gpu
     use_gpu = torch.cuda.is_available()
@@ -93,7 +92,6 @@ def run_net(args):
         base_model.train()  # set model to training mode
         regressor.train()
         if args.fix_bn:
-            print('fix bn')
             base_model.apply(misc.fix_bn)  # fix bn
         for idx, (data , target) in enumerate(train_dataloader):
             # break
