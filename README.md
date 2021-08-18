@@ -3,7 +3,7 @@ CoRe
 
 Created by [Xumin Yu\*](https://yuxumin.github.io/), [Yongming Rao\*](https://raoyongming.github.io/), [Wenliang Zhao](https://wl-zhao.github.io/), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)
 
-This is the PyTorch implementation for ICCV paper __Group-aware Contrastive Regression for Action Quality Assessment__.
+This is the PyTorch implementation for ICCV paper __Group-aware Contrastive Regression for Action Quality Assessment__ [arXiv](https://arxiv.org/abs/2108.07797).
 
 We present a new Contrastive Regression (*__CoRe__*) framework to learn the relative scores by pair-wise comparison, which highlights the differences between videos and guides the models to learn the key hints for action quality assessment.
 
