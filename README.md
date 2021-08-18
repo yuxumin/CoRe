@@ -118,3 +118,16 @@ bash ./scripts/test.sh 0 Seven try --Seven_cls 1 --ckpts ./Seven_CoRe_1.pth
 
 ### Visualizatin Results
 ![vis](fig/CoRe_vis.png)
+
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@misc{yu2021groupaware,
+      title={Group-aware Contrastive Regression for Action Quality Assessment}, 
+      author={Xumin Yu and Yongming Rao and Wenliang Zhao and Jiwen Lu and Jie Zhou},
+      year={2021},
+      eprint={2108.07797},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
