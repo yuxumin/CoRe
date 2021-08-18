@@ -3,7 +3,7 @@ CoRe
 
 Created by [Xumin Yu\*](https://yuxumin.github.io/), [Yongming Rao\*](https://raoyongming.github.io/), [Wenliang Zhao](https://wl-zhao.github.io/), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)
 
-This is the PyTorch implementation for ICCV paper __Group-aware Contrastive Regression for Action Quality Assessment__.
+This is the PyTorch implementation for ICCV paper __Group-aware Contrastive Regression for Action Quality Assessment__ [arXiv](https://arxiv.org/abs/2108.07797).
 
 We present a new Contrastive Regression (*__CoRe__*) framework to learn the relative scores by pair-wise comparison, which highlights the differences between videos and guides the models to learn the key hints for action quality assessment.
 
@@ -28,7 +28,6 @@ pip install git+https://github.com/hassony2/torch_videovision
 ### Download initial I3D 
 We use the Kinetics pretrained I3D model from the reposity [kinetics_i3d_pytorch](https://github.com/hassony2/kinetics_i3d_pytorch/blob/master/model/model_rgb.pth)
 
-
 ### Dataset Preparation
 
 #### MTL-AQA
@@ -49,7 +48,7 @@ $DATASET_ROOT
     └── model_rgb.pth
 ```
 
-The processed annotations are already provided in this repo. The prepared dataset is coming soon (in BaiDuYun). If you want to prepare the data by yourself, please see [MTL_helper](./DATASET.md) for some helps. We provide codes for processing the data from an online video to the frames data.
+The processed annotations are already provided in this repo. You can download the prepared dataset [[BaiduYun]](https://pan.baidu.com/s/1ZUHyvYFia0cJtPp7pTfAbg)(code:smff). Download and unzip the four zip files under MTL-AQA/, then follow the structure. If you want to prepare the data by yourself, please see [MTL_helper](./DATASET.md) for some helps. We provide codes for processing the data from an online video to the frames data.
 
 #### AQA-7
 - Download AQA-7 Dataset:
@@ -79,7 +78,7 @@ $DATASET_ROOT
         ├── split_4_test_list.mat
         └── split_4_train_list.mat
 ```
-The prepared dataset is coming soon (in BaiDuYun).
+You can download he prepared dataset [[BaiduYun]](https://pan.baidu.com/s/1mcXo6g1XXhm9f0qL5lsNNw)(code:65rl). Unzip the file under Seven/
 
 #### JIGSAWS
 - Please download the dataset from [JIASAWS](https://cs.jhu.edu/~los/jigsaws/info.php). You are required to complete a form before you use this dataset for __academic research__.
@@ -118,3 +117,16 @@ bash ./scripts/test.sh 0 Seven try --Seven_cls 1 --ckpts ./Seven_CoRe_1.pth
 
 ### Visualizatin Results
 ![vis](fig/CoRe_vis.png)
+
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@misc{yu2021groupaware,
+      title={Group-aware Contrastive Regression for Action Quality Assessment}, 
+      author={Xumin Yu and Yongming Rao and Wenliang Zhao and Jiwen Lu and Jie Zhou},
+      year={2021},
+      eprint={2108.07797},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
