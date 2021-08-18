@@ -28,7 +28,6 @@ pip install git+https://github.com/hassony2/torch_videovision
 ### Download initial I3D 
 We use the Kinetics pretrained I3D model from the reposity [kinetics_i3d_pytorch](https://github.com/hassony2/kinetics_i3d_pytorch/blob/master/model/model_rgb.pth)
 
-
 ### Dataset Preparation
 
 #### MTL-AQA
