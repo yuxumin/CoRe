@@ -48,7 +48,7 @@ $DATASET_ROOT
     └── model_rgb.pth
 ```
 
-The processed annotations are already provided in this repo. The prepared dataset is coming soon (in BaiDuYun). If you want to prepare the data by yourself, please see [MTL_helper](./DATASET.md) for some helps. We provide codes for processing the data from an online video to the frames data.
+The processed annotations are already provided in this repo. You can download the prepared dataset [[BaiduYun]](https://pan.baidu.com/s/1ZUHyvYFia0cJtPp7pTfAbg)(code:smff). Download and unzip the four zip files under MTL-AQA/, then follow the structure. If you want to prepare the data by yourself, please see [MTL_helper](./DATASET.md) for some helps. We provide codes for processing the data from an online video to the frames data.
 
 #### AQA-7
 - Download AQA-7 Dataset:
@@ -78,7 +78,7 @@ $DATASET_ROOT
         ├── split_4_test_list.mat
         └── split_4_train_list.mat
 ```
-The prepared dataset is coming soon (in BaiDuYun).
+You can download he prepared dataset [[BaiduYun]](https://pan.baidu.com/s/1mcXo6g1XXhm9f0qL5lsNNw)(code:65rl). Unzip the file under Seven/
 
 #### JIGSAWS
 - Please download the dataset from [JIASAWS](https://cs.jhu.edu/~los/jigsaws/info.php). You are required to complete a form before you use this dataset for __academic research__.
