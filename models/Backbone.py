@@ -10,12 +10,8 @@ class I3D_backbone(nn.Module):
         self.backbone = I3D(num_classes = I3D_class, modality = 'rgb', dropout_prob = 0.5)
         
     def load_pretrain(self, I3D_ckpt_path):
-        try:
-            self.backbone.load_state_dict(torch.load(I3D_ckpt_path))
-            print('loading ckpt done')
-        except:
-            print('Ckpt path {} do not exists'.format(I3D_ckpt_path))
-            pass
+        self.backbone.load_state_dict(torch.load(I3D_ckpt_path))
+        print('loading ckpt done')
 
     def get_feature_dim(self):
         return self.backbone.get_logits_dim()
