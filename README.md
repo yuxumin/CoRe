@@ -1,9 +1,7 @@
 CoRe
 ===
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/group-aware-contrastive-regression-for-action/action-quality-assessment-on-aqa-7)](https://paperswithcode.com/sota/action-quality-assessment-on-aqa-7?p=group-aware-contrastive-regression-for-action)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/group-aware-contrastive-regression-for-action/action-quality-assessment-on-mtl-aqa)](https://paperswithcode.com/sota/action-quality-assessment-on-mtl-aqa?p=group-aware-contrastive-regression-for-action)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/group-aware-contrastive-regression-for-action/action-quality-assessment-on-aqa-7)](https://paperswithcode.com/sota/action-quality-assessment-on-aqa-7?p=group-aware-contrastive-regression-for-action)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/group-aware-contrastive-regression-for-action/action-quality-assessment-on-mtl-aqa)](https://paperswithcode.com/sota/action-quality-assessment-on-mtl-aqa?p=group-aware-contrastive-regression-for-action)
 
 
 Created by [Xumin Yu\*](https://yuxumin.github.io/), [Yongming Rao\*](https://raoyongming.github.io/), [Wenliang Zhao](https://wl-zhao.github.io/), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)
