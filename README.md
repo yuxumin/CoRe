@@ -1,6 +1,8 @@
 CoRe
 ===
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/group-aware-contrastive-regression-for-action/action-quality-assessment-on-aqa-7)](https://paperswithcode.com/sota/action-quality-assessment-on-aqa-7?p=group-aware-contrastive-regression-for-action)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/group-aware-contrastive-regression-for-action/action-quality-assessment-on-mtl-aqa)](https://paperswithcode.com/sota/action-quality-assessment-on-mtl-aqa?p=group-aware-contrastive-regression-for-action)
 
 
